@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Hello or Bye</h2>
+<h4>Put your number 0 or 1</h4>
+<h4>Number</h4>
+<input type="text" id="checkNumber"><br>
+<h4>Name</h4>
+<input type="text" id="checkName">
+<input type="button" value="click here" onclick="sayHelloBye()">
+
+
+    
+
+
+    <script>
+        //of hame+ 1 show hello-- if name + 0 show bye
+function sayHelloBye() {
+  name = document.getElementById("checkName").value;
+  num = parseInt(document.getElementById("checkNumber").value)
+    if(num==1){
+        alert("hello " + name)
+    }
+    else{
+        alert("bye " + name)
+    }
+
+}
+
+
+
+
+    </script>
+</body>
+</html>
